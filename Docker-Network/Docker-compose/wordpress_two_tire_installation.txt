@@ -1,0 +1,2 @@
+docker container run --name mysql -e MYSQL_ROOT_PASSWORD=mypassword -d mysql:5.7
+docker container run --name wordpress -e WORDPRESS_DB_HOST=172.17.0.2:3306 -e WORDPRESS_DB_USER=root -e WORDPRESS_DB_PASSWORD=mypassword -d wordpress
